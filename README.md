@@ -2,7 +2,7 @@
 
 💡**Data Generation:** A Python script leveraging Faker to create a CSV file of 100 synthetic employee records with fields such as name, job title, department, email, address, phone number, salary, and password.
 
-☁︎**Cloud Storage Upload:** Upload of the generated CSV to a Google Cloud Storage (GCS) bucket using service account credentials.
+☁︎ **Cloud Storage Upload:** Upload of the generated CSV to a Google Cloud Storage (GCS) bucket using service account credentials.
 
 🗃️**Big Query:** Creating a table using CSV .
 
