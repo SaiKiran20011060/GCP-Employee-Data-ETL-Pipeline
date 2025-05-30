@@ -1,16 +1,16 @@
 **GCP Employee Data ETL Pipeline**
 
-**Data Generation:** A Python script leveraging Faker to create a CSV file of 100 synthetic employee records with fields such as name, job title, department, email, address, phone number, salary, and password.
+💡**Data Generation:** A Python script leveraging Faker to create a CSV file of 100 synthetic employee records with fields such as name, job title, department, email, address, phone number, salary, and password.
 
-**Cloud Storage Upload:** Upload of the generated CSV to a Google Cloud Storage (GCS) bucket using service account credentials.
+☁︎**Cloud Storage Upload:** Upload of the generated CSV to a Google Cloud Storage (GCS) bucket using service account credentials.
 
-**Big Query:** Creating a table using CSV .
+🗃️**Big Query:** Creating a table using CSV .
 
-**Data Masking:** Data Fusion Wrangler is used to mask or obfuscate sensitive fields (e.g., email, phone number) before loading.
+📤**Data Masking:** Data Fusion Wrangler is used to mask or obfuscate sensitive fields (e.g., email, phone number) before loading.
 
-**BigQuery Load:** Loading the cleaned and masked data into a BigQuery table with a predefined schema.
+💾**BigQuery Load:** Loading the cleaned and masked data into a BigQuery table with a predefined schema.
 
-**Visualization:** Connecting BigQuery to Power BI for reporting via Import or DirectQuery.
+📊**Visualization:** Connecting BigQuery to Power BI for reporting via Import or DirectQuery.
 
 
 **Prerequisites:**
